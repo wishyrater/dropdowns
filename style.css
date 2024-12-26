@@ -1,0 +1,55 @@
+body {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.dropdowns {
+    width: 800px;
+    border: 1px solid black;
+
+    display: grid;
+    grid-auto-flow: column;
+    justify-items: center;
+    align-items: center;
+}
+
+.dropdown-container {
+    display: grid;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropbtn {
+    padding: 16px;
+    font-size: 16px;
+    background-color: red;
+    color: white;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: lightcoral;
+}
+
+.dropdown-content {
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    display: none;
+}
+
+.dropdown-content a {
+    display: block;
+    text-decoration: none;
+    padding: 12px 16px;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.visible {
+    display: block;
+}
