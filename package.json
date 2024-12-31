@@ -1,0 +1,11 @@
+{
+  "name": "dropdown-mode-wishyrater",
+  "version": "1.0.0",
+  "description": "A package for making hoverable and clickable dropdowns",
+  "main": "dropdown.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Julian Cæsar andersen",
+  "license": "ISC"
+}
